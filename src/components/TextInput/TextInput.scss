@@ -1,0 +1,48 @@
+.TextInput {
+  width: 100%;
+  max-width: 320px;
+
+  &-input {
+    color: var(--white_1);
+    background-color: var(--black_1);
+    border: none;
+    border-radius: 0.2rem;
+    padding: 0.5rem 1.25rem;
+    font-family: inherit;
+    font-size: var(--fSize20);
+    min-height: 50px;
+    width: 100%;
+    max-width: 320px;
+
+    &::placeholder {
+      color: var(--gray_1);
+      font-weight: 200;
+      font-style: italic;
+    }
+
+    &-wrap {
+      position: relative;
+      width: 100%;
+      max-width: 320px;
+    }
+  }
+
+  &-label {
+    color: var(--white_1);
+    font-size: var(--fSize16);
+    margin-bottom: 0.5rem;
+    display: block;
+  }
+
+  &-errors {
+    height: 25px;
+  }
+
+  &-error {
+    color: var(--red_1);
+    font-size: var(--fSize14);
+    text-align: left;
+    display: block;
+    padding: 0.1rem;
+  }
+}
